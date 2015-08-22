@@ -39,13 +39,14 @@ span:hover {
 }
 
 #intro {
-    max-width: 50%;
+    max-width: 65%;
 }
 
 .link {
     font-size: 20px;
 }
 
+/* Make big clickable link buttons */
 .link-block {
   position: absolute; 
   width: 100%;
@@ -70,12 +71,22 @@ span:hover {
     position: relative;
 }
 
+/* Make columns for links */
+.col-1-2 {
+  width: 40%;
+}
+
 [class*='col-'] {
   float: left;
 }
 
-.col-1-2 {
-  width: 40%;
+/* Add padding to all columns */
+[class*='col-'] {
+  padding-right: 20px;
+}
+/* Except the very last column */
+[class*='col-']:last-of-type {
+  padding-right: 0;
 }
 
 .grid:after {
@@ -93,15 +104,10 @@ span:hover {
   padding-right: 20px;
 }
 
+/* "Specify that <div> elements should have padding and border included in the element's total width and height" from W3Schools */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-[class*='col-'] {
-  padding-right: 20px;
-}
-[class*='col-']:last-of-type {
-  padding-right: 0;
-}
