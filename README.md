@@ -1,2 +1,2 @@
 # atvaccaro.github.io
-The repository for atvaccaro's personal webpage hosted on github.
+My personal webpage hosted on GitHub Pages, mainly to have links to my projects, etc. I'll be updating it as I continue to learn HTML and CSS, and maybe JavaScript if I ever get around to it.
