@@ -1,113 +1,32 @@
 /* Main stylesheet */
 
-* {
-    font-family: Courier;
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 20%;
+    margin-bottom: auto;
+    margin-left: 20%;
 }
 
-h2 {
-    padding: 0px;
-    margin: 0px;
-}
-
-a {
-    margin: auto;
-    color: #000000;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-a span {
-    color: #ffffff;
-}
-
-span:hover {
-    border: 1px solid black;
-}
-
-#intro {
-    max-width: 65%;
-}
-
-.link {
-    font-size: 20px;
-}
-
-/* Make big clickable link buttons */
-.link-block {
-  position: absolute; 
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-
-  /* edit: added z-index */
-  z-index: 1;
-
-  /* edit: fixes overlap error in IE7/8, 
-     make sure you have an empty gif */
-  background-image: url('empty.gif');
-}
-
-.link-div {
-    text-align: center;
-    background-color: beige;
-    border: 2px solid black;
-    padding: 10px;
+p {
     margin: 5px;
-    position: relative;
 }
 
-/* Make columns for links */
-.col-1-2 {
-  width: 40%;
+img {
+    height: 144px;
+    width: 144px;
+    margin: 12px;
 }
 
-[class*='col-'] {
-  float: left;
+div > a {
+    font-size: 18px;
 }
 
-/* Add padding to all columns */
-[class*='col-'] {
-  padding-right: 20px;
-}
-/* Except the very last column */
-[class*='col-']:last-of-type {
-  padding-right: 0;
+.col-md-6 {
+    padding: 10px;
 }
 
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
+.fa {
+    margin: 5px;
 }
-
-.grid-pad {
-  padding: 20px 0 20px 20px;
-}
-
-/* necessary to align last col- element */
-.grid-pad > [class*='col-']:last-of-type {
-  padding-right: 20px;
-}
-
-/* "Specify that <div> elements should have padding and border included in the element's total width and height" from W3Schools */
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
