@@ -4,13 +4,18 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     margin-top: 20px;
-    margin-right: 20%;
+    margin-right: 15%;
     margin-bottom: auto;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 p {
     margin: 5px;
+}
+
+#intro {
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #profile-pic {
@@ -24,22 +29,18 @@ div > a {
 }
 
 .col-md-6 {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .fa {
     margin: 5px;
 }
 
-.row {
-    display: table;
-}
-
 .project {
     height: 256px;
 }
 
-.project > img {
+.project-image {
     max-height: 100%;
     max-width: 100%;
     height: 112px;
@@ -56,4 +57,10 @@ div > a {
 
 #utd-logo {
     padding: 12px;
+}
+
+.skill-logo {
+    height: 48px;
+    width: auto;
+    padding: 5px;
 }
