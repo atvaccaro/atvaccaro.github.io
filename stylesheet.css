@@ -42,7 +42,7 @@ div > a {
 .project > img {
     max-height: 100%;
     max-width: 100%;
-    height: 128px;
+    height: 112px;
     width: auto;
 }
 
@@ -50,6 +50,10 @@ div > a {
     height: 128px;
 }
 
-#mcdermott-log {
-    padding: 10px;
+#mcdermott-logo {
+    padding: 14px;
+}
+
+#utd-logo {
+    padding: 12px;
 }
